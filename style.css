@@ -1,0 +1,263 @@
+
+
+*{
+    font-family: "Tajawal", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+    header {
+        background-color: white ;
+        width: 100%;
+        height: 70px;
+        box-shadow: 0px 0px 12px black;
+        position: fixed;
+        z-index: 1;
+       
+    }      
+    header button{
+      width: 140px;
+      padding: 10px;
+      margin-top: 10px;
+      border:none;
+      background: none;
+      outline: none;
+      font-size: 18px;
+      box-shadow: 0px 0px 8px whitesmoke;
+      font-family: sans-serif; 
+      font-weight: bold;
+      transition: 1s;
+    }    
+    header button:hover{
+
+    color :#076890;  
+    box-shadow: 0px 0px 15px silver;
+
+}
+header img{
+  width: 70px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 8px;
+
+}
+#imo1{
+  width: 100%;
+  height: 700px;
+  margin-top: 77px;
+
+}
+marquee{
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  color: #C19A6B;
+  text-align: center;
+  font-size: 38px;
+width: 400px;
+height: 200px;
+font-family: "Tajawal", sans-serif; 
+
+}
+aside{
+  width: 13%;
+  height: 400px;
+  background: white;
+  float:right;
+}
+aside button{
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-family:"Tajawal", sans-serif ;
+  font-weight: bold;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #407088;
+  border-left: 1px solid #407088;
+  outline: none;
+  transition: 1s;
+}
+aside button:hover {
+  color: white;
+  background-color: #ff4b5c;
+
+}
+main{
+  width:87% ;
+  height: 400px;
+  background:rgb(251, 251, 251) ;
+  margin-top: -4px;
+  float: left;
+}
+main h2{
+  font-size: 25px;
+  font-weight: bold;
+  font-family:"Tajawal", sans-serif ;
+  margin-top: 20px;
+  
+}
+main img{
+  width: 100px;
+  margin-top: 20px;
+
+}
+main p{
+  font-size: 25px;
+  font-weight: bold;
+  font-family:"Tajawal", sans-serif ;
+  color: gray;
+  margin-top: 30px;
+  margin: 10px;
+
+}
+#d1 div{
+  width: 274px;
+  height: 500px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  box-shadow: 1px 1px 12px grey;
+  float: left;
+  margin-left: 130px;
+  margin-top: 60px;
+  border-radius: 18px;
+
+}
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgba(236, 187, 187, 0.852);
+  margin-top: 1000px;
+  clear: both;
+  box-shadow: 0px 0px 40px gray;
+
+}
+footer div {
+  font-size: 22px;
+  margin-top: 18px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 600px;
+  color: #ff4b5c;
+}
+footer div a {
+  text-decoration: none;
+  color: rgba(71, 13, 13, 0.8);
+}
+footer div a:hover {
+  color: #ff4b5c ;
+}
+#imo2{
+  
+  float: center; 
+
+}
+.logo.logo-large {
+  font-size: 120px;
+  box-sizing: border-box;
+}
+.logo {
+  direction: rtl;
+  font-family: logo;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo-box-logo {
+  text-align: center;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+
+#about-us {
+  font-family: nice-font;
+  font-size: 23px;
+}
+.section-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  direction: rtl;
+  position: relative;
+}
+
+#about-us .about-us-container .details {
+  border-right: 5px solid lightseagreen;
+  padding: 10px 15px 10px 0px;
+
+}
+#about-us .about-us-container .header {
+  font-size: 40px;
+  color: lightblue;
+  padding: 5px 15px 5px 0px;
+  display: inline-block;
+  border-right: 5px solid lightcoral;
+  line-height: 80px;
+  font-family: sahl-bold;
+  white-space: nowrap;
+  font-family: nice-font;
+}
+#about-us .about-us-container .btn-contact-us {
+  border-right: 5px solid lightseagreen;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+#imo3{
+  
+  float: center; 
+}
+#imo4{
+  float: right;
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+h3{
+  font-family: "Tajawal", sans-serif; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:SlateBlue;
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+ 
+  font-family: "Tajawal", sans-serif; 
+  color:rgb(118, 69, 255); 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 45.25em;
+    width: 60.25em;
+font-weight: bold;
+  background-color: #FFB6C1; 
+  border-collapse: collapse; 
+  border: 2px solid rgb(128, 0, 126)
+}
+table.inner{
+  border: 0px
+}
+button{
+  border: none;
+  padding: 10px;
+  width: 40%;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:"Tajawal", sans-serif ;
+  cursor: pointer;
+}
